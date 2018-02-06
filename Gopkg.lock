@@ -79,7 +79,7 @@
     "unix",
     "windows"
   ]
-  revision = "8f27ce8a604014414f8dfffc25cbcde83a3f2216"
+  revision = "37707fdb30a5b38865cfb95e5aab41707daec7fd"
 
 [[projects]]
   name = "gopkg.in/go-playground/validator.v8"
@@ -96,6 +96,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "466f07b37f7df05f3425d1710259c615b219c5ebb3bd49dfaa4a1d5520a3804c"
+  inputs-digest = "9f37329612da4c0d5506ae252d26615db7c9e6cbe5c05a7ced8868957d1ef5b7"
   solver-name = "gps-cdcl"
   solver-version = 1

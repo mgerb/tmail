@@ -1,11 +1,11 @@
 package webserver
 
 import (
-	"log"
-
 	"github.com/gin-gonic/gin"
 	"github.com/mgerb/tmail/db"
 	"github.com/mgerb/tmail/mail"
+
+	log "github.com/sirupsen/logrus"
 )
 
 func Start() {
@@ -18,7 +18,8 @@ func mailHander(c *gin.Context) {
 
 	to := c.Query("to")
 	var mail []mail.Mail
-	log.Println(to)
+
+	log.Debug(to)
 
 	if to != "" {
 		db.Conn.Find("To", to, &mail)

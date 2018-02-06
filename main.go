@@ -3,15 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/asdine/storm"
 	"github.com/mgerb/tmail/db"
 	"github.com/mgerb/tmail/smtpserver"
 	"github.com/mgerb/tmail/webserver"
 	log "github.com/sirupsen/logrus"
 )
-
-//DB - database instance
-var DB *storm.DB
 
 func init() {
 	// Log as JSON instead of the default ASCII formatter.

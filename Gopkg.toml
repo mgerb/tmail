@@ -26,8 +26,20 @@
 
 
 [[constraint]]
+  name = "github.com/asdine/storm"
+  version = "2.0.2"
+
+[[constraint]]
+  name = "github.com/gin-gonic/gin"
+  version = "1.2.0"
+
+[[constraint]]
   branch = "master"
   name = "github.com/mhale/smtpd"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "1.0.4"
 
 [prune]
   go-tests = true

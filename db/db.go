@@ -1,9 +1,8 @@
 package db
 
 import (
-	"log"
-
 	"github.com/asdine/storm"
+	log "github.com/sirupsen/logrus"
 )
 
 var Conn *storm.DB
