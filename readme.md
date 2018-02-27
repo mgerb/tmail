@@ -7,6 +7,8 @@ A throwaway smtp mail server with an API to retrieve emails.
 - all emails sent to *@<your domain> are stored in `mail.db`
 - hit these end points to check the email
 
+[Download the latest release here.](https://github.com/mgerb/tmail/releases)
+
 ```
 All mail:
 http://host:8090/api/mail
